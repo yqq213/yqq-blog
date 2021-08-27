@@ -1,0 +1,15 @@
+{
+  "name": "hexo-theme-shoka",
+  "version": "0.2.5",
+  "description": "",
+  "author": "Ruri Shimotsuki",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "hexo-algoliasearch": "^1.0.0",
+    "hexo-autoprefixer": "^2.0.0",
+    "hexo-feed": "^1.1.0",
+    "hexo-renderer-multi-markdown-it": "^0.1.5",
+    "hexo-symbols-count-time": "^0.7.1"
+  }
+}
