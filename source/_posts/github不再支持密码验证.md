@@ -48,4 +48,23 @@ tags: github
 
 <br/>
 
-4、下次提交代码时输入对应的token即可，这里我用的是vscode插件
+4、下次提交代码时输入对应的token即可，这里我用的是vscode插件git提交的，提交时输入你的github用户名，密码用刚才保存的token，完成后就能正常提交代码了，拉取也没问题
+
+<img src="vscode.png" style="zoom:75%;" />
+
+<br/>
+
+# 补充
+
+如果上述操作不行，可以尝试删除之前电脑存储的github密码凭证，重新输入token验证，具体操作如下：
+
+打开控制面板 → 用户账户 → 凭证管理器 → 管理windows凭证， 删除github那条凭据，下次提交时就会重新输入
+
+<img src="windows.png" style="zoom:50%;" />
+
+<br/>
+
+------
+
+***done！***
+
