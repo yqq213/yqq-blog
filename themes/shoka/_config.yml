@@ -109,7 +109,7 @@ social:
   # google: https://plus.google.com/yourname || google
   # twitter: https://twitter.com/yourname || twitter || "#00aff0"
   zhihu: https://www.zhihu.com/people/yourname || zhihu || "#1e88e5"
-  # music: https://music.163.com/#/user/home?id=yourid || cloud-music || "#e60026"
+  music: https://music.163.com/#/user/home?id=yourid || cloud-music || "#e60026"
   # weibo: https://weibo.com/yourname || weibo || "#ea716e"
   # about: https://about.me/yourname || address-card || "#3b5998"
   email: mailto:yourname@mail.com || envelope || "#55acd5"
@@ -141,12 +141,12 @@ footer:
     # Change the color of icon, using Hex Code.
     color: "#ffc0cb"
   # Dependencies: https://github.com/theme-next/hexo-symbols-count-time
-  count: false
+  count: true
   powered: true
 
 post:
   # Dependencies: https://github.com/theme-next/hexo-symbols-count-time
-  count: false
+  count: true
 
 # Reward (Donate)
 reward:
@@ -277,6 +277,17 @@ baidu_site_verification:
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.
 baidu_push: false
 
+symbols_count_time:
+  separated_meta: true
+  item_text_post: true
+  item_text_total: false
+
+post_wordcount:
+  item_text: true
+  wordcount: true
+  min2read: true
+  totalcount: true
+  separated_meta: true
 
 #! ---------------------------------------------------------------
 #! DO NOT EDIT THE FOLLOWING `vendors` SETTINGS

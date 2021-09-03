@@ -94,6 +94,14 @@ include:
 exclude:
 ignore:
 
+# 添加字数统计和阅读统计
+symbols_count_time:
+  symbols: true
+  time: true
+  total_symbols: true
+  total_time: true
+  exclude_codeblock: false
+
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
