@@ -16,7 +16,7 @@
     </span>
     <span title="{{ __('symbols_count_time.count_total') }}">{{ symbolsCountTotal(site) }} {{__('symbols_count_time.word')}}</span>
 
-    <span class="post-meta-divider">|</span>
+    <span class="post-meta-divider">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
     <span class="post-meta-item-icon">
       <i class="ic i-coffee"></i>
     </span>
@@ -24,9 +24,21 @@
   </div>
   {%- endif %}
 
-  {%- if theme.footer.powered %}
+  {# {%- if theme.footer.powered %}
   <div class="powered-by">
     {{ __('footer.powered', _url('https://hexo.io', 'Hexo') + ' & Theme.' + _url('https://github.com/amehime/hexo-theme-shoka', 'Shoka')) }}
   </div>
-  {%- endif %}
+  {%- endif %} #}
+
+  <div class="powered-by">
+    <span id="busuanzi_container_site_pv">
+      总访问量<span id="busuanzi_value_site_pv"></span>次
+    </span>
+    <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+    <span id="busuanzi_container_site_uv">
+      访客数<span id="busuanzi_value_site_uv"></span>人
+    </span>
+  </div>
 </div>
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>

@@ -111,4 +111,6 @@ theme: shoka
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: git@47.98.150.67:/home/git/repos/blog.git
+  branch: master
