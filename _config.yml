@@ -13,8 +13,9 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://manzi.website
-permalink: :year/:month/:day/:title/
+url: http://www.manzi.website
+# permalink: :year/:month/:day/:title/
+permalink: :year:month:day/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -102,6 +103,19 @@ symbols_count_time:
   total_time: true
   exclude_codeblock: false
 
+# 自动生成sitemap
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
+
+# 百度搜索资源平台配置
+baidu_url_submit:
+  count: 100               # 提交最新的多少个链接
+  host: www.manzi.website    # 在百度站长平台中添加的域名
+  token: uGB9RLe2lePFxa68      # 秘钥
+  path: baidu_urls.txt   # 文本文档的地址， 新链接会保存在此文本文档里
+
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
@@ -111,6 +125,7 @@ theme: shoka
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
+- type: git
   repo: git@47.98.150.67:/home/git/repos/blog.git
   branch: master
+- type: baidu_url_submitter
