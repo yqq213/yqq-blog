@@ -56,10 +56,12 @@ post:
 # Valine
 # For more information: https://valine.js.org, https://github.com/xCss/Valine
 valine:
-  appId: #这里不要忘了改
-  appKey: #这里不要忘了改
+  appId: 2g4pGIgdi94UEnQgrBz4UHdX-MdYXbMMI
+  appKey: Ksya8TKWwWHohpEA15Kxx9Gt
   placeholder: ヽ(○´∀`)ﾉ♪ # Comment box placeholder
   pageSize: 10 # Pagination size
+  visitor: true # Article reading statistic
+  serverURLs: https://avoscloud.com
   lang: zh-CN
   tagMember:
     master:
