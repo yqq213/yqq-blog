@@ -1,7 +1,6 @@
 ---
 title: Element-ui修改卡片走马灯组件源码，支持展示五个元素切换
-date: 2020-02-20 15:42:43
-categories: Element-ui
+date: 2020-10-20 15:42:43
 tags: Element-ui
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: github自2021年8月13日起不再支持密码验证解决方案
 date: 2021-08-20 15:42:43
-categories: git
+categories: [Git]
 tags: github
 
 ---

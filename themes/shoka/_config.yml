@@ -96,7 +96,7 @@ menu:
     categories: /categories/ || th
     tags: /tags/ || tags
     archives: /archives/ || list-alt
-  好友: /friends/ || heart
+  # 好友: /friends/ || heart
   链接: /links/ || magic
 
 # Social Links
@@ -105,14 +105,14 @@ menu:
 # Value before `||` delimiter is the target permalink,
 # secend value is the name of Font icon.
 social:
-  github: https://github.com/yourname || github || "#191717"
+  # github: https://github.com/yourname || github || "#191717"
   # google: https://plus.google.com/yourname || google
   # twitter: https://twitter.com/yourname || twitter || "#00aff0"
-  zhihu: https://www.zhihu.com/people/yourname || zhihu || "#1e88e5"
-  music: https://music.163.com/#/user/home?id=yourid || cloud-music || "#e60026"
+  # zhihu: https://www.zhihu.com/people/yourname || zhihu || "#1e88e5"
+  # music: https://music.163.com/#/user/home?id=yourid || cloud-music || "#e60026"
   # weibo: https://weibo.com/yourname || weibo || "#ea716e"
   # about: https://about.me/yourname || address-card || "#3b5998"
-  email: mailto:yourname@mail.com || envelope || "#55acd5"
+  # email: mailto:yourname@mail.com || envelope || "#55acd5"
   #facebook: https://www.facebook.com/yourname || facebook
   #stackoverflow: https://stackoverflow.com/yourname || stack-overflow
   #youtube: https://youtube.com/yourname || youtube

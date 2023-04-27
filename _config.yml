@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://manzi.website
+url: http://47.98.150.67
 # permalink: :year/:month/:day/:title/
 permalink: :year:month:day/:title/
 permalink_defaults:
@@ -112,7 +112,7 @@ baidusitemap:
 # 百度搜索资源平台配置
 baidu_url_submit:
   count: 100               # 提交最新的多少个链接
-  host: www.manzi.website    # 在百度站长平台中添加的域名
+  host: 47.98.150.67    # 在百度站长平台中添加的域名
   token: uGB9RLe2lePFxa68      # 秘钥
   path: baidu_urls.txt   # 文本文档的地址， 新链接会保存在此文本文档里
 

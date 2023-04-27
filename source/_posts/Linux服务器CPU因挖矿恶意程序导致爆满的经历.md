@@ -1,7 +1,6 @@
 ---
 title: Linux服务器CPU因挖矿恶意程序导致爆满的经历
 date: 2021-09-07 17:42:43
-categories: linux
 tags: 
 - cpu爆满
 - 挖矿
